@@ -5,6 +5,8 @@ import { Observable } from 'rxjs';
 @Injectable({
   providedIn: 'root'
 })
+
+//obtener la lista de productos y el detalle de cada producto
 export class AerolabApiService {
   private apiUrl = 'https://aerolabchallenge.docs.apiary.io/#reference/0/redeem/get'; //URL real de la API
 
