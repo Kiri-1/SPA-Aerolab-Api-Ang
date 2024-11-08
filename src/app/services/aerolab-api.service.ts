@@ -14,13 +14,13 @@ export class AerolabApiService {
 
   getProducts(): Observable<any> {
     return this.http.get(`${this.apiUrl}/products`, {
-      headers: new HttpHeaders({ 'Authorization': '1967135094' }) //token
+      headers: new HttpHeaders({ 'Authorization': 'U0YBNE36PNfnAG7Zwcy/ELvX+3y0z6FASuVcNDv3rS4=' }) //token
     });
   }
 
   getProductById(id: string): Observable<any> {
     return this.http.get(`${this.apiUrl}/products/${id}`, {
-      headers: new HttpHeaders({ 'Authorization': '1967135094' }) //token
+      headers: new HttpHeaders({ 'Authorization': 'U0YBNE36PNfnAG7Zwcy/ELvX+3y0z6FASuVcNDv3rS4=' }) //token
     });
   }
 }
