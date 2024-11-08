@@ -2,7 +2,6 @@ import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { Product } from 'src/app/models/product.model';
 import { AerolabApiService } from 'src/app/services/aerolab-api.service';
-
 @Component({
   selector: 'app-product-detail',
   templateUrl: './product-detail.component.html',
